@@ -37,7 +37,7 @@ class MainActivity : AppCompatActivity() {
         //Auth Ref
         auth = Firebase.auth
     }
-
+        //Extra shit voor commit
     private fun loginWithEmailPassword(email: String, password: String) {
         auth.signInWithEmailAndPassword(email, password)
             .addOnCompleteListener(this) {
