@@ -10,5 +10,5 @@ data class Journal(
 
     val userId: String,
     val timeAdded: Timestamp,
-    val username: String,
+    val username: String
 )
